@@ -1,0 +1,7 @@
+name: 'GoSec for Pull Request'
+description: 'Better handling for gosec inside of GitHub Actions'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
