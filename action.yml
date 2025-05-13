@@ -1,5 +1,5 @@
-name: 'GoSec for Pull Request'
-description: 'Better handling for gosec inside of GitHub Actions'
+name: 'GoSec Enhanced Pull Requests'
+description: 'Enhances the visibility for GoSec issues inside of pull requests'
 
 inputs:
   dir:
