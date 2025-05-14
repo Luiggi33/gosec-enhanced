@@ -1,5 +1,10 @@
 name: 'GoSec Enhanced Pull Requests'
 description: 'Enhances the visibility for GoSec issues inside of pull requests'
+author: 'Luiggi33'
+
+branding:
+  icon: git-pull-request
+  color: gray-dark
 
 inputs:
   dir:
@@ -9,7 +14,7 @@ inputs:
   failOnIssue:
     description: 'Should this action fail when GoSec finds an issue'
     required: false
-    default: true
+    default: 'true'
 
 runs:
   using: 'docker'
