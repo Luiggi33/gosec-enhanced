@@ -37,3 +37,5 @@ jobs:
           dir: ./exampleGoCode/...
           failOnIssue: false
 ```
+
+Or check out https://github.com/Luiggi33/gosec-enhanced-example
